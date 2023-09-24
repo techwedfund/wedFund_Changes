@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.img_ed{
+    margin-right: 1rem;
+    font-family: Montserrat;
+}
+
+.how{
+    border-radius: 20px;
+}
+
+.whyContainer{
+    margin-top: 5rem;
+}
+
+.marBottom{
+    margin-bottom: 1rem;
+}
+
+.whyText{
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+.custom-list{
+    display: flex;
+}
+
+.list-group-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.mt-5{
+    margin-top: 5rem !important;
+}
+
+.text-start{
+    margin-bottom: 1rem;
+}
+
+.wrk{
+    font-weight: 600;
+    margin-left: -5rem;
+}
+
+.headerfirst{
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+@media (max-width:320px){
+    .custom-list li {
+        padding-left: 0.5rem;
+    }
+    .text-start {
+        margin-left: 0rem;
+    }
+    
+    .headerfirst{
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .wrk{
+        margin-left: 0;
+    }
+}
+@media (min-width:321px) and (max-width: 576px) {
+
+    .text-start {
+        margin-left: 0rem;
+    }
+    
+    .headerfirst{
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    .wrk{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 750px){
+    .wrk{
+        margin-left: 0rem;
+    }
+
+    .text-start {
+        margin-left: 0rem;
+    }
+    
+    .headerfirst{
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    /* .howWork{
+        margin: 0 0rem 0 0rem;
+    } */
+}
+
+@media only screen and (min-width: 751px) and (max-width: 991px){
+    .wrk{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .wrk{
+        margin-left: -4rem;
+    }
+    .text-start{
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .wrk{
+        margin-left: -4rem;
+    }
+    .text-start{
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+    }
+}
+  
+  @media (min-width: 1200px) and (max-width:1536px) {
+
+    .mrt{
+        margin-top: 7rem;
+    }
+    
+    .headerfirst{
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+  }
+
+  @media (min-width:1537px) {
+    .headerfirst{
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+  }

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.docH{
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.docP{
+    font-size: 0.875rem;
+}
+
+.docUl{
+    padding: 6.25rem 4.75rem 3.75rem 4.75rem;
+    margin-left: -4.5rem;
+    justify-content: space-between;
+}
+
+.my-5{
+    margin-top: 8rem!important;;
+}
+
+@media (max-width:767px) {
+    .med7{
+        flex-direction: column;
+        margin-bottom: -3.5rem;
+    }
+    .mob7{
+        margin-bottom: 0.5rem;
+    }
+
+    .docUl{
+        padding: 3.25rem 4.75rem 3.75rem 4.75rem;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .docH{
+        margin-bottom: -4rem;
+    }
+}

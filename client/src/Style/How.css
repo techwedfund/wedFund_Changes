@@ -1,0 +1,203 @@
+.how {
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(229, 209, 209);
+  padding: 0px 76px 0px 100px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-container .steps-component .step-container:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.step-content{
+    margin-left: 1rem;
+}
+
+.circle1 {
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background: var(--primary-color, #6c0505);
+  border: 1px #6c0505;
+  fill: var(--primary-color, #6c0505);
+  outline: 7px solid #cd8e8e;
+  padding: 10px;
+  width: 2.5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  margin: auto;
+}
+
+.howText {
+  font-size: 2rem;
+}
+
+.howWork {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.mx-4 {
+  margin-left: 2rem !important;
+}
+
+#howPara{
+  margin-top: -35px;
+}
+
+.applyCredit{
+  margin-top: -2rem;
+}
+
+.headerfirst {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  margin-top: auto;
+  /* margin-top: 1rem; */
+}
+.headerfirst1 {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  margin-top: auto;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 300px) {
+  .headerfirst {
+    margin-top: 1rem;
+  }
+  .how {
+    padding: 0 12px 0 20px;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+  .circle1 {
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    margin: auto;
+  }
+
+  .headerfirst {
+    margin-top: 1rem;
+  }
+  .how {
+    padding: 0 12px 0 20px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .applyCredit{
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 576px) {
+  .circle1 {
+    border-radius: 50%;
+    color: white;
+
+    padding: 10px;
+    border-color: #6c0505;
+
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    margin: auto;
+  }
+
+  .wrk{
+    margin-left: 0;
+  }
+
+  .headerfirst {
+    margin-top: 1rem;
+  }
+  .how {
+    padding: 0 12px 0 20px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .wrk{
+    margin-left: 0;
+  }
+  .circle1 {
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    margin: auto;
+  }
+  .headerfirst {
+    margin-top: 1rem;
+  }
+  .how {
+    padding: 0 0 0 45px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .circle1 {
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    margin: auto;
+  }
+
+  .headerfirst {
+    padding-left: 1rem;
+  }
+
+  .headerfirst1 {
+    padding-left: 1rem;
+  }
+
+  .how {
+    padding: 60px 76px 60px 70px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1536px) {
+  .circle1 {
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    width: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .site-container .application-steps-component .image img {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+}

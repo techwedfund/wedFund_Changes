@@ -1,0 +1,36 @@
+.imgLending{
+    width: 70%;
+    height: 16rem;
+}
+
+.lendingPartners{
+    margin-top: 2rem;
+}
+
+.text-lending{
+    color: #241d41;
+    margin: 0;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.linkEdit{
+    text-align: center;
+}
+
+.linkButton{
+    background-color: #6C0505;
+    color: #fff;
+    text-align: center;
+}
+
+.linkButton:hover{
+    background-color: #380303;
+    color: #fff;
+}
+
+@media only screen and (max-width: 300px){
+    .imgLending{
+        margin-top: -3rem;
+    }
+}

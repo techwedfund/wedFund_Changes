@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.navbar .navbar-expand-lg .navbar-light .navbar-nav .nav-link{
+    color: #121212;
+    font-family: 'Cabin';
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(45px);
+
+}
+
+.navbar-light .navbar-brand{
+    font-family: 'Della Respira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    color: #480F06;
+}
+
+.navbar-light .nav-item{
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #121212;
+}
+
+.bg-transparent {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+
+.mrgn{
+    margin-left: 0.7rem;
+}
+
+@media (max-width:788px){
+    .nav-item button .mx-1{
+        margin-left: 0px;
+        margin-top: 0.2rem;
+    }
+
+    .mrgn{
+        margin-left: 0rem;
+        margin-top: 0.8rem;
+    }
+}

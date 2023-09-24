@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.imgW{
+    width: 38.25rem;
+    height: 21.75rem;
+    margin: -128rem 0rem 0rem 28rem;
+}
+
+
+/* About css Start*/
+.text-start{
+    font-family: Tsukimi Rounded;
+}
+
+.list-group-item{
+    font-family: Cabin;
+}
+
+.custom-list {
+    list-style-type: disc;
+    /* padding-left: 1.25rem; */
+    
+  }
+
+.custom-list li{
+    border: none;
+    font-family: 'Cabin';
+    padding-left: 5rem;
+}
+
+.half-bg {
+    background-color: #6C0505;
+    height: 25rem;
+}
+  
+.half-content {
+    padding-left: 6.7rem;
+    padding-top: 3.5rem;
+}
+
+.row .bg{
+    background-color: transparent;
+}
+
+.info-timeline ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-content{
+    margin-left: 7.5rem;
+    margin-top: -7.5rem;
+}
+
+/* About css End */
+
+@media (min-width: 992px){
+    .container{
+        margin-top: 0rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    header{
+        background-position: center;
+        width: 100%;
+    }
+    .imgW{
+        margin: -128rem 0rem 0rem 28rem;
+    }
+}
+
+@media (max-width: 1024px) and  (max-width:800px){
+    .vector{
+        margin-left: 9.5rem;
+        margin-top: -2rem;
+    }
+
+    .bord .borde{
+        border-top: 0.3rem solid #6C0505;
+        border-radius: 0.19rem;
+        width: 100%;
+        margin-left: 13.5rem;
+        margin-top: -1.699rem;
+    }
+}
+
+@media (max-width: 1031px) and (min-width:688px){
+    .vector{
+        margin-left: 12.1rem;
+        margin-top: -2rem;
+    }
+
+    .bord .borde{
+        border-top: 0.3rem solid #6C0505;
+        border-radius: 0.19rem;
+        width: 100%;
+        margin-left: 15.3rem;
+        margin-top: -1.699rem;
+    }
+}
+
+
+@media (max-width:600px){
+    .row .half-content{
+        padding-left: start;
+        padding-top: 0;
+    }
+    .custom-list li{
+        padding-left: 1.5rem;
+    }
+    .right-content{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+}
+@media (max-width:767px){
+    .row .half-content{
+        padding-left: 0;
+        padding-top: 1.3rem;
+    }
+    .right-content{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .imgW{
+        width: 38.25rem;
+        height: 21.75rem;
+        margin: -220rem 0rem -42rem -16.5rem;
+    }
+}
+
+@media (max-width:1031px) and (min-width: 688px){
+    .row .half-content{
+        padding-left: 4.5rem;
+        padding-top: 3rem;
+    }
+    .custom-list li{
+        padding-left: 5rem;
+    }
+    .right-content{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .imgW{
+        width: 38.25rem;
+        height: 21.75rem;
+        margin: -210rem 0rem -41rem 6rem;
+    }
+}
